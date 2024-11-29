@@ -1,0 +1,7 @@
+ssh root@78.47.151.220/16Uiu2HAm4pSHPtCig4bTDQ87VhAFxTwoKpaN13t6ALA4k5ASjNzD/cd ocean && docker compose down && docker compose up -d
+ssh root@188.245.101.212/16Uiu2HAmPfY3FRC34qvfwNSLfo918AFckaCTHyGer3mtd1NAkMUS/cd ocean && docker compose down && docker compose up -d
+ssh root@49.13.201.125/16Uiu2HAmFBiDrr49yhcK71E4GPfyxNvVgFFUTZeg2TB6vQDMbUci/cd ocean && docker compose down && docker compose up -d
+ssh root@195.201.226.244/16Uiu2HAm5cBhAVRpL4XDN7SPKVzdwH8eF1vkrJgavEDRVV24dvXq/cd ocean && docker compose down && docker compose up -d
+ssh root@135.181.205.49/16Uiu2HAmP8R9AWVzEUcNNZjqeJUxgeChnaDPxaJkopJX5Mc7pkVh/cd ocean && docker compose down && docker compose up -d
+ssh root@37.27.199.61/16Uiu2HAkwUzPvVxKF4ZU9AaBjmS7c8p4e6mV3n5Pci4vkT1u2YvV/cd ocean && docker compose down && docker compose up -d
+ssh root@65.21.183.51/16Uiu2HAm4rDt3sfNybGUiXkYhw4ukHW1kxLikHo5PFQmpmz4GWwd/cd ocean && docker-compose down && docker-compose up -d
