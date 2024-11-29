@@ -2,6 +2,7 @@ pipeline {
     agent any
 
     environment {
+        PATH = "/usr/local/bin:${env.PATH}",
         PHP_SCRIPT = 'index.php'
     }
 
