@@ -6,7 +6,6 @@ if ($argc < 2) {
 
 $public_key = $argv[1];
 
-
 $url = "https://incentive-backend.oceanprotocol.com/nodes?page=1&size=10&search=" . $public_key;
 
 $ch = curl_init();
