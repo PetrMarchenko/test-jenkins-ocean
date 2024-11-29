@@ -21,6 +21,12 @@ pipeline {
                             def server_name = server.server_name
                             def public_key = server.public_key
                             def exec_command = server.exec_command
+                            def isCheck = server.isCheck
+
+                            if (server.isCheck == false) {
+                                echo "Skipping check for server: ${server.server_name} as isCheck is false"
+                                return
+                            }
 
                             echo "Checking service on server: ${server_name}"
 
