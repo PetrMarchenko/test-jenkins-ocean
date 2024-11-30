@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    options {
+        timeout(time: 10, unit: 'MINUTES')
+    }
+
     environment {
         PATH = "/usr/local/bin:${env.PATH}"
         PHP_SCRIPT = 'index.php'
